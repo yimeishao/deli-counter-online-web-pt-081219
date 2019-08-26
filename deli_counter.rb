@@ -5,7 +5,7 @@ def line(array)
  else 
    while index != 0 
    array.each do |name, index| 
-     puts 
+     puts "The line is currently: #{index + 1}, "
    
   end
 end
