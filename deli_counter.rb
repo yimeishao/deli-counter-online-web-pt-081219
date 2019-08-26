@@ -3,4 +3,4 @@ def line(array)
    return "The line is currently empty."
  else 
    message = "The line is currently:"
-   array.
+   array.each_with_index 
