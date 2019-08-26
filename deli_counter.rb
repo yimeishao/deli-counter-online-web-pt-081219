@@ -3,7 +3,7 @@ def line(array)
   if array.size == 0 
    return "The line is currently empty."
  else 
-   array.each do 
+   array.each do |name, 
    
   end
 end
