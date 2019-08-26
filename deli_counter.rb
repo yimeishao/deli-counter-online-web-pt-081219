@@ -6,4 +6,5 @@ def line(array)
    array.each_with_index do |name, index| 
      message = message + "#{(index + 1).to_s}. #{name}"
    end 
-   
+  message
+end
